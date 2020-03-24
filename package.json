@@ -27,5 +27,8 @@
         "gulp-sass": "^4.0.1",
         "gulp-scss-lint": "^1.0.0",
         "gulp-sourcemaps": "^2.6.4"
-    }
+    },
+    "files": [
+        "/scss/mytheme.scss"
+    ]
 }
