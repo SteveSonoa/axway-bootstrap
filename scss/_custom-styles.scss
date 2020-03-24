@@ -1,13 +1,131 @@
 // Add additional styles here. For example, overwrite certain styles or add new components.
 // Tip: You can use bootstrap's powerful mixins here!
 
-
 //.alert-myalert {
-//  @include alert-variant(#60667d, #1d1d1d, #f4fdff);
+//  @include alert-variant(#60667d, #1d1d1d, #f4fdff) !important;
 //}
 
 //@each $color, $value in $theme-colors {
 //  .alert-#{$color} {
-//    box-shadow: 3px 3px theme-color-level($color, -3);
+//    box-shadow: 3px 3px theme-color-level($color, -3) !important;
 //  }
 //}
+
+* {
+    box-sizing: border-box !important;
+}
+
+button {
+    background-color: #fff !important;
+    background-image: none !important;
+    border: 1px solid #407ca0 !important;
+    border-radius: 1.5625rem !important;
+    color: #407ca0 !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    float: left !important;
+    font: inherit !important;
+    font-family: inherit !important;
+    font-size: 0.8125rem !important;
+    line-height: 1.33333 !important;
+    margin: 0 !important;
+    margin-left: 5px !important;
+    min-width: 150px !important;
+    overflow: visible !important;
+    padding: 6px 25px !important;
+    text-align: center !important;
+    touch-action: manipulation !important;
+    transition: background-color 0.25s ease-in, border 0.25s ease-in,
+        color 0.25s ease-in !important;
+    user-select: none !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    text-transform: none !important;
+    -webkit-appearance: button !important;
+}
+
+button:first-child {
+    margin-left: 0 !important;
+}
+
+button:hover {
+    background-color: #fff !important;
+    border-color: #3d4051 !important;
+    color: #3d4051 !important;
+}
+
+button.btn-lg {
+    border-radius: 1.5625rem !important;
+    font-size: 0.8125rem !important;
+    line-height: 1.33333 !important;
+}
+
+button.btn-primary {
+    background-color: #407ca0 !important;
+    border-color: #407ca0 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+button.btn-danger {
+    color: #fff !important;
+    background-color: darkred !important;
+    border-color: darkred !important;
+    box-shadow: none !important;
+}
+
+button.compact {
+    min-width: initial !important;
+}
+
+button.close {
+    background: transparent !important;
+    border: 0 !important;
+    padding: 0 !important;
+    -moz-appearance: none !important;
+}
+
+button.disabled,
+button.btn[disabled] {
+    cursor: not-allowed !important;
+    opacity: 0.65 !important;
+}
+
+button.btn-primary.disabled:hover,
+button.btn-primary[disabled]:hover {
+    background: #b7babc !important;
+    border-color: #b7babc !important;
+    color: #fff !important;
+}
+
+button.wizardHeader__cancel {
+    border: hidden !important;
+    color: #989998 !important;
+    font-weight: 700 !important;
+}
+
+button.wizardHeader__cancel:hover,
+button.wizardHeader__cancel:active {
+    background-color: transparent !important;
+}
+
+button.text {
+    background-color: transparent !important;
+    border: 0 !important;
+    color: #407ca0 !important;
+    display: inline !important;
+    font-weight: 700 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+}
+
+button:hover {
+    text-decoration: none !important;
+}
+
+button.btn-primary:hover {
+    background-color: #3d4051 !important;
+    border-color: #3d4051 !important;
+    color: #fff !important;
+}
