@@ -3,7 +3,6 @@
  *  Built on top of Bootstrap 4 (https://getbootstrap.com)
  *  Built with the Bootstrap Theme Kit by HackerThemes (https://hackerthemes.com)
  */
-@import 'custom-variables';
-@import '../node_modules/bootstrap/scss/bootstrap';
-@import 'custom-styles';
-
+@import './_custom-variables.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './_custom-styles.scss';

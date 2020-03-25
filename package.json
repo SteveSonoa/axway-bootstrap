@@ -1,6 +1,6 @@
 {
     "name": "axway-bootstrap",
-    "version": "1.0.2",
+    "version": "1.0.6",
     "description": "A starter project to build your own Bootstrap themes",
     "repository": "https://github.com/HackerThemes/theme-kit",
     "main": "index.js",
@@ -29,6 +29,20 @@
         "gulp-sourcemaps": "^2.6.4"
     },
     "files": [
-        "/scss/mytheme.scss"
+        "css/*",
+        "scss/*",
+        "LICENSE",
+        "README.md"
+    ],
+    "browserslist": [
+        "Chrome >= 35",
+        "Firefox >= 38",
+        "Edge >= 12",
+        "Explorer >= 10",
+        "iOS >= 8",
+        "Safari >= 8",
+        "Android 2.3",
+        "Android >= 4",
+        "Opera >= 12"
     ]
 }
