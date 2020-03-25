@@ -1,6 +1,6 @@
 {
     "name": "axway-bootstrap",
-    "version": "1.0.6",
+    "version": "1.0.8",
     "description": "A starter project to build your own Bootstrap themes",
     "repository": "https://github.com/HackerThemes/theme-kit",
     "main": "index.js",
